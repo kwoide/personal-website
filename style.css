@@ -44,6 +44,33 @@ header a:hover {
   color: #b2dfdb;
 }
 
-.intro {
-  background-color: #6dcec6;
+.hero-image {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://images.pexels.com/photos/2234006/pexels-photo-2234006.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  min-height: 25rem;
+  height: 50%;
+  align-self: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 50px;
+}
+
+.hero-text {
+  text-align: center;
+  color: white;
+}
+
+.hero-header {
+  align-self: center;
+  font-size: 50px;
+}
+
+.dashed {
+  margin-bottom: 5px;
+  min-width: 70vw;
 }
