@@ -106,6 +106,7 @@ header a:hover {
 }
 .card-title {
   margin-top: 0;
+  margin-bottom: 5px;
   font-size: 16px;
   font-weight: 600;
   letter-spacing: 1.2px;
@@ -117,7 +118,8 @@ header a:hover {
 }
 .card-btn {
   all: unset;
-  display: block;
+  display: inline;
+  margin-top: 10px;
   margin-left: auto;
   border: 2px solid #fff;
   padding: 10px 15px;
