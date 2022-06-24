@@ -10,6 +10,8 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+/* End of the basic settings - Here we continue with the hero-section */
+
 header li {
   list-style: none;
   display: inline-block;
@@ -44,6 +46,8 @@ header a:hover {
   color: #b2dfdb;
 }
 
+/* End of navigation - Here we continue with the Hero-section */
+
 .hero-image {
   display: flex;
   flex-direction: column;
@@ -63,6 +67,8 @@ header a:hover {
 .hero-text {
   text-align: center;
   color: white;
+  padding: 50px;
+  align-self: center;
 }
 
 .hero-header {
@@ -73,4 +79,64 @@ header a:hover {
 .dashed {
   margin-bottom: 5px;
   min-width: 70vw;
+}
+
+/* End of hero-section - Here we continue with the servivce-section */
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card {
+  max-width: 300px;
+  min-height: 250px;
+  background: #02b875;
+  padding: 30px;
+  box-sizing: border-box;
+  color: #fff;
+  margin: 20px;
+  box-shadow: 0px 2px 18px -4px rgba(0, 0, 0, 0.75);
+}
+.card:nth-child(2) {
+  background: #4181ee;
+}
+.card:last-child {
+  background: #673ab7;
+}
+.card-title {
+  margin-top: 0;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+}
+.card-content {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  line-height: 1.5;
+}
+.card-btn {
+  all: unset;
+  display: block;
+  margin-left: auto;
+  border: 2px solid #fff;
+  padding: 10px 15px;
+  border-radius: 25px;
+  font-size: 10px;
+  font-weight: 600;
+  transition: all 0.5s;
+  cursor: pointer;
+  letter-spacing: 1.2px;
+}
+.card-btn:hover {
+  color: #02b875;
+  background: #fff;
+}
+.card:nth-child(2) .card-btn:hover {
+  color: #4181ee;
+  background: #fff;
+}
+.card:last-child .card-btn:hover {
+  color: #673ab7;
+  background: #fff;
 }
